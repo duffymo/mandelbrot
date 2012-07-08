@@ -1,0 +1,18 @@
+
+This project displays the Mandelbrot set in a Swing JFrame.  The initial
+size of the frame is 700x700 pixels.  The initial complex region has an
+upper left bound of (-2-2i) an a lower right bound of (+2+2i).  The
+bounding magnitude is 2; the max number of iterations is 50.
+
+Users can zoom in to a particular region by pressing the left mouse
+button at the upper left corner, dragging down to the lower right
+corner, and releasing the mouse.
+
+Close the window by clicking on the "close window" button in the upper
+right corner.  A file prompt will be displayed that makes it possible
+to save the last image rendered to the file system as a .gif, .jpg, or
+.svn file.
+
+The code was developed and run using Sun JKD 1.6.0_21 running on Windows
+XP SP3.  The IDE was IntelliJ.  All unit tests were run using JUnit version
+4.8.  Code coverage for model objects was 100%, and all tests passed.

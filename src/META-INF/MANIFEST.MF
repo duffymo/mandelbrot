@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: junit-4.8.jar
+Main-Class: mandelbrot.view.MandelbrotPanel
+
